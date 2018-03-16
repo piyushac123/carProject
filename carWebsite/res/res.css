@@ -1,0 +1,189 @@
+.heading{
+    text-indent: 100px;
+}
+.menu{
+    background-color:#403B4A;
+    color:white;
+    line-height: 60px;
+    font-size: 15px;
+    
+}
+
+.menu11{
+    background-color:#403B4A;
+    color:white;
+    line-height: 60px;
+    font-size: 15px;
+    
+}
+
+.menunew{
+    background-color:#403B4A;
+    color:white;
+    line-height: 60px;
+}
+.menu1{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.menup{
+    color:white;
+}
+.menup:hover{
+    color:white;
+    background-color: #403B4A;
+    text-decoration: none;
+}
+.active{
+    background-color:red;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 9px;
+    padding-right: 9px;
+    width:auto;
+    color:white;
+}
+.active:hover{
+     color:white;
+    text-decoration: none;   
+}
+.col-lg-3{
+    color:white;
+}
+
+#footer{
+    position:relative;
+    width:100%;
+}
+
+.list1{
+    list-style-type: none;
+}
+
+.abc{
+      padding: 17px;
+  size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+cursor:pointer;
+}
+
+.abc:hover{
+color:white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+text-shadow:1px 1px black;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+border:1px solid #007bb5;
+  color: white;
+text-shadow:1px 1px black;
+}
+
+
+/*==================================================
+  $A11Y Dropdown
+  ==================================================*/
+
+/* Top level pav */
+.pav2 {
+	float: left;
+	margin: 20px 0;
+    line-height: 60px;
+}
+
+/* Dropdowns */
+.pav ul {
+	position: absolute;
+	/*top: 2.5em;*/
+	left: -9999px;
+	/*opacity: 0;*/
+	transition: 0.1s linear opacity;
+	min-width: 150px;
+    line-height: 60px;
+    
+}
+
+.pav li {
+	float: left;
+	position: relative;
+    background: #403B4A;
+    line-height: 60px;
+}
+
+/* Top level pav items */
+.pav li > a {
+	/*padding: 10px 15px;*/
+	text-decoration: none;
+     color:white;
+    line-height: 60px;
+}
+
+.pav1{
+    text-indent: 20px;
+	/*padding: 10px 15px;*/
+	text-decoration: none;
+     color:white;
+    line-height: 60px;
+}
+
+/* Top level hover state, preserve hover state when hovering dropdown  */
+/*.pav li > a:hover,
+.pav li > a:focus,
+.pav li:focus > a,
+.pav li:hover > a {
+	background-color: #403B4A;
+    color:white;
+	outline: 0;
+}*/
+
+.pav li:hover ul,
+.pav li:focus ul,
+ul.show-menu {
+	left: 0;
+	opacity: 0.99;
+    line-height: 60px;
+    
+}
+
+.pav ul li {
+	float: none;
+	position: static;
+    line-height: 60px;
+}
+
+.pav ul a{
+	float: none;
+	display: block;
+	font-size: 17px;
+	text-shadow: none;
+    line-height: 60px;
+	/*transition: 0.1s linear all;*/
+}
+
+.pav2 ul a:hover,
+.pav2 ul a:focus {
+	text-shadow: none;
+    line-height: 60px;
+}
+
+
+/*==================================================
+  $Helpers
+  ==================================================*/
+
+.list-reset {  
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    line-height: 60px;
+}
